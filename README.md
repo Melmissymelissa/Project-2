@@ -1,12 +1,40 @@
 <div align="center"><h1>Project 2: Statistical Significance - Pricing Factors - House Prices</h1> </div>
 
-<p>This project aims to analyze the housing market in Ames Iowa. We will explore the key factors affecting property values, such as location, quality, and neighborhood characteristics. We'll analyze how  we should allocate reserved dollars for investment into mortgage-backed securities using statistical analysis.</p>
-</body>
-<div align="center"><h2>About the Dataset</h2> </div>
-<p></p>
+<!-- TABLE OF CONTENTS -->
+   ## Table of Contents
+   - [Introduction](#introduction)
+   - [About The Dataset](#aboutthedataset)
+   - [Installation](#installation)
+   - [EDA](#EDA)
+   - [Analysis](#analysis)
+   - [Results](#results)
+
+## Introduction
+This project aims to analyze the housing market in Ames Iowa. We will explore the key factors affecting property values, such as location, quality, and neighborhood characteristics. We'll analyze how  we should allocate reserved dollars for investment into mortgage-backed securities using statistical analysis.
+
+## About the Dataset
 Widely recognize far is high quality and accuracy, the Ames, Iowa housing dataset includes a wide range of variables making it the ideal choice when predicting housing prices, understanding market trends and exploring the impact of different factors on property values.
-<p></p>
-<p>This dataset contains <u>1,560 rows</u> and <u>25 main columns</u></p>
+
+This dataset contains <u>1,460 rows</u> and <u>81 main columns</u>
+The columns we'll pay close attention to are:
+- ID: A unique identifier for each house (integer).
+- OverallQual: Overall material and finish quality (integer).
+- OverallCond: Overall condition rating (integer).
+- 1stFlrSF: First Floor square feet (integer).
+- GarageArea: Size of garage in square feet (integer).
+- GarageCars: Size of garage in car capacity (integer).
+- SalePrice: Sale price in dollars (integer).
+- TotalBsmtSF: Total square feet of basement area (integer).
+- LotArea: Lot size in square feet (integer).
+- Neighborhood: Physical locations within Ames city limits (object).
+- YearBuilt: Original construction date (integer).
+- GrLivArea: Above grade (ground) living area square feet (integer).
+
+I also created a new field called 'Price per sq ft'
+```python
+# Creating a new field
+hp_df['Price per sq ft'] = hp_df['SalePrice'] / hp_df['LotArea'] # calculating the price by sq ft
+  ```
 <div align="center"><h2>Hypotheses</h2> </div>
 <p></p>
 <p>1. Reject the null that there is no significant difference between above average quality homes and below average quality homes. </p>
