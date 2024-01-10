@@ -52,3 +52,13 @@ drive.mount('/content/gdrive')
 sns.set()
 pd.set_option('display.max_colwidth', None)
   ```
+Bringing in the dataset
+```python
+hp_df = pd.read_csv("/content/gdrive/MyDrive/My Data Analyst Portfolio/Project 2: Statistical Significance - Pricing Factors - House Prices/raw_data.csv")
+hp_df.info()
+  ```
+Running Descriptive Statistics
+```python
+hp_df.describe().round()
+  ```
+![Screen Shot 2024-01-10 at 12 21 23 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/83e7c517-8fa5-450e-b67f-410451ccc13b)
