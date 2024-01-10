@@ -98,3 +98,18 @@ Next, I wanted to take a look at the Top 10 Neighborhoods with Above-Average Pro
 
 ![Screen Shot 2024-01-10 at 12 52 48 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/5216047a-c464-406e-beee-e7a5f051bc80)
 
+After seeing the neighborhoods that have the most above-average property features, I wanted to compare them to the top 10 neighborhoods with the highest average price per sq ft
+
+![Screen Shot 2024-01-10 at 12 57 59 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/8739ef2d-3c52-49b4-9e0b-ac39b414e0c8)
+
+I also wanted to know: 
+What are the top 10 neighborhoods with the most count of homes with an above average Overallqual score
+
+![Screen Shot 2024-01-10 at 1 05 27 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/91c41619-a7ab-426f-a4d3-1b7303e4493d)
+
+## Analysis
+In my analysis, I conducted multiple t-tests to determine whether there existed a significant difference in price per sq ft between homes categorized as above average and those categorized as below average. These tests were performed across multiple categories.
+
+
+
+
