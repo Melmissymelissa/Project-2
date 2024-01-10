@@ -96,4 +96,5 @@ I found that a higher over quality score, larger living areas, a larger garage t
 
 Next, I wanted to take a look at the Top 10 Neighborhoods with Above-Average Property Features. This chart shows the count of occurrences for each neighborhood that has properties with above-average values in various features such as OverallQual, GrLivArea, GarageCars, GarageArea, TotalBsmtSF, and 1stFlrSF.
 
-![Screen Shot 2024-01-10 at 12 40 53 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/3d424cbc-5018-4fa1-b824-d149096eb13f)
+![Screen Shot 2024-01-10 at 12 52 48 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/5216047a-c464-406e-beee-e7a5f051bc80)
+
