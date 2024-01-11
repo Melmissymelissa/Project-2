@@ -190,9 +190,35 @@ The results indicate a statistically significant difference in the average price
 
 ### Hypothesis 9 - There is a signigicant difference in the mean price per sq ft between homes built after the year 2000 and homes built before the year 2000. Ha: μ1 - μ2 ≠ 0
 
-![Screen Shot 2024-01-10 at 5 07 15 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/942568ad-2e10-4796-bd4f-912f15dd2d75)
+![Screen Shot 2024-01-11 at 10 51 30 AM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/631b1c8f-3dba-48d5-b56d-73ae1d1e95af)
 
 The results indicate a statistically significant difference in the average price per square foot between homes built after the year 2000 and homes built before the year 2000. The confidence interval of (8.15, 11.04) suggests that, with 95% confidence, the average price per square foot for homes built after the year 2000 is estimated to be higher by approximately 8-11 dollars compared to homes built before the year 2000. Additionally, the small p-value of 1.166027845190789e-39 provides strong evidence against the null hypothesis, indicating that the observed difference is unlikely to have occurred by chance alone.
 
 ### Hypothesis 10 - There is a significant difference in the mean price per square foot between above-average quality homes in the top 10 neighborhoods bulit after 2000 and above-average quality homes in the top 10 neighborhoods bulit before 2000. Ha: μ1 - μ2 ≠ 0
+
+![Screen Shot 2024-01-11 at 10 53 31 AM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/00feb80e-4f61-4840-88d7-3e3811ac8c30)
+
+The t-test results show a significant difference in the mean price per square foot between above-average quality homes in the top 10 neighborhoods built after 2000 and above-average quality homes in the top 10 neighborhoods built before 2000. The t-statistic of 3.705 indicates a positive difference, suggesting that homes built after 2000 have a higher mean price per square foot. The p-value of 0.000242 suggests strong evidence against the null hypothesis. The 95% confidence interval of (1.865, 6.771) indicates that the mean price per square foot for homes built after 2000 is likely to be between 2-7 dollars higher than for homes built before 2000.
+
+## Results
+After conducting statistical analysis (t-tests) on 10 hypotheses, it can be concluded that the following factors contribute to a higher price per square foot:
+
+- Above-average overall quality score - This suggests that buyers are willing to pay more for homes that are built with better materials and have superior craftsmanship.
+- Larger-than-average living areas - This could be because larger living spaces provide more comfort and functionality, which is valued by buyers.
+- A garage that can accommodate more cars than the average - This suggests that having ample garage space is considered desirable by buyers, potentially for storing multiple vehicles or providing additional storage space.
+- A basement area larger than the average - Basements can provide additional living space or storage, and buyers may be willing to pay more for homes with larger basement areas.
+- A first floor larger than the average - This could be because larger first floors offer more living space and flexibility in terms of room layout and functionality
+- Below-average overall condition score - This could be due to factors such as historical significance, unique architectural features, or potential for renovation and improvement.
+- Homes built after the year 2000 - This suggests that newer homes, with modern amenities and construction standards, are valued more by buyers.
+
+Furthermore, by focusing on above-average quality homes built after the year 2000 in the top neighborhoods, the analysis found that this combination can further contribute to a higher price per square foot. This indicates that buyers are willing to pay a premium for newer, high-quality homes located in desirable neighborhoods.
+
+## Recommendations
+I can conclude that homes buyers in Ames, Iowa prioritize well-built homes with superior craftsmanship and materials. They also value space and are willing to pay more for homes that offer ample living and storage space, and may be willing to overlook some condition issues if the home possesses other desirable features or characteristics. However, these buyers tend to have a preference for newer construction, which may offer modern amenities, updated designs, and adherence to current building standards. Lastly, these buyers are willing to pay a premium for homes located in desirable neighborhoods with a reputation for quality and desirability. Overall, these conclusions suggest that home buyers prioritize quality, space, newer construction, and desirable locations when making purchasing decisions. With that being said, I recommend we:
+
+   1. Focus on high quality properties - conducting thorough due diligence on the underlying properties and ensuring they meet certain quality criteria.
+   2. Consider property size
+   3. Access proerty condition
+   4. Consider market trends - Monitor market trends and consider the demand for newer homes
+   5. Diversify the portfolio - Investing in a mix of mortgage-backed securities backed by properties with different characteristics, such as varying quality scores, sizes, conditions, and construction years. Diversification can help mitigate the impact of any specific property or market-related risks
 
