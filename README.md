@@ -8,6 +8,7 @@
    - [EDA](#EDA)
    - [Analysis](#analysis)
    - [Results](#results)
+   - [Recommendations](#recommendations)
 
 ## Introduction
 This project aims to analyze the housing market in Ames Iowa. We will explore the key factors affecting property values, such as location, quality, and neighborhood characteristics. We'll analyze how  we should allocate reserved dollars for investment into mortgage-backed securities using statistical analysis.
