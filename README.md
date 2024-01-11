@@ -65,7 +65,7 @@ hp_df.describe().round()
 ![Screen Shot 2024-01-10 at 12 21 23 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/83e7c517-8fa5-450e-b67f-410451ccc13b)
 
 ## EDA
-To first start off my exploratory data analysis, I first wanted to take a closer look at the catagories that are highly associated with a higher sale price. By utilizing the 'saleprice_corr' variable, I examined the categories that exhibit a strong correlation with a higher sale price, allowing me to gain a deeper understanding of the factors that significantly influence the sale price in the dataset. 
+To first start off my exploratory data analysis, I first wanted to take a closer look at the categories that are highly associated with a higher sale price. By utilizing the 'saleprice_corr' variable, I examined the categories that exhibit a strong correlation with a higher sale price, allowing me to gain a deeper understanding of the factors that significantly influence the sale price in the dataset. 
 ```python
 corr_matrix = hp_df.corr()
 
