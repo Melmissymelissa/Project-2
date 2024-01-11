@@ -84,7 +84,7 @@ plt.show()
   ```
 ![Screen Shot 2024-01-10 at 12 29 22 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/c3669f3f-dc96-4823-a234-5d745ecdd59d)
 
-I found that a higher over quality score, larger living areas, a larger garage that can accomadate more cars, a larger basement area and a larger first floor area tends to be associated with a higher sale price
+I found that a higher over quality score, larger living areas, a larger garage that can accommodate more cars, a larger basement area and a larger first floor area tends to be associated with a higher sale price
 
 (recap of catagories)
 
