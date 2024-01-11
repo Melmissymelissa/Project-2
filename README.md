@@ -110,6 +110,70 @@ What are the top 10 neighborhoods with the most count of homes with an above ave
 ## Analysis
 In my analysis, I conducted multiple t-tests to determine whether there existed a significant difference in price per sq ft between homes categorized as above average and those categorized as below average. These tests were performed across multiple categories.
 
+### Hypothesis 1 - There is a significant difference in price per sq ft between above average GrLivArea homes and below average GrLivArea homes. Ha: μ1 - μ2 ≠ 0
+```python
+# splitting the data for a t-test into 2 samples on GrLivArea
+above_avg_GrLivArea_df = hp_df[hp_df['GrLivArea'] > hp_df['GrLivArea'].mean()]  # sample of above average GrLivArea
+below_avg_GrLivArea_df = hp_df[hp_df['GrLivArea'] <= hp_df['GrLivArea'].mean()]  # sample of below average GrLivArea
 
+# running t-test
+t_statistic, p_value = stats.ttest_ind(above_avg_GrLivArea_df["Price per sq ft"], below_avg_GrLivArea_df["Price per sq ft"])
+
+# Calculate the confidence interval
+ci = stats.t.interval(0.95, len(above_avg_GrLivArea_df["Price per sq ft"]) + len(below_avg_GrLivArea_df["Price per sq ft"]) - 2,
+                      loc=above_avg_GrLivArea_df["Price per sq ft"].mean() - below_avg_GrLivArea_df["Price per sq ft"].mean(),
+                      scale=stats.sem(above_avg_GrLivArea_df["Price per sq ft"]) + stats.sem(below_avg_GrLivArea_df["Price per sq ft"]))
+
+x = ['Below Avg GrLivArea', 'Above Avg GrLivArea']
+y = [mean1, mean2]
+error = [margin_error, margin_error]
+
+colors = ['blue', 'orange'] 
+
+plt.bar(x, y, yerr=error, color=colors)  
+plt.xlabel('GrLivArea')
+plt.ylabel('Price per sq ft')
+plt.title('Mean Price per sq ft of Below and Above Average GrLivArea Homes', fontsize=30)
+
+for i, v in enumerate(y):
+    plt.text(i, v + 1.5, str(round(v, 2)), ha='center', va='bottom', fontsize=24)
+plt.show()
+print("T-Statistic:", t_statistic)
+print("P-Value:", p_value)
+print("Confidence Interval (95%):", ci)
+  ```
+![Screen Shot 2024-01-10 at 3 44 07 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/3fc7b969-1c18-4b24-85c9-32c33686e606)
+
+The results of the t-test indicate a statistically significant difference in the price per sq ft between homes with above-average and below-average GrLivArea. The confidence interval (0.17, 3.70) suggests that, on average, homes with above-average GrLivArea have a price per sq ft that is between approximately 0.17 and 3.70 higher than homes with below-average GrLivArea. The low p-value (0.0028) provides strong evidence against the null hypothesis, supporting the conclusion of a significant difference in prices.
+
+### Hypothesis 2 - There is a significant difference in price per sq ft between above average GarageCars homes and below average GarageCars homes. Ha: μ1 - μ2 ≠ 0
+
+![Screen Shot 2024-01-10 at 3 52 53 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/b6387bee-381d-4bb8-9d19-40ba342d2c5c)
+
+The results of the analysis indicate a statistically significant difference in the average price per square foot between houses with below average GarageCars and houses with above average GarageCars. The confidence interval of (3.3 - 6.9) suggests that, with 95% confidence, the average price per square foot for houses with above average GarageCars is estimated to be higher by approximately 3.34 to 6.90 compared to houses with below average GarageCars. Additionally, the very small p-value of 1.72e-13 provides strong evidence against the null hypothesis, indicating that the observed difference is unlikely to have occurred by chance alone.
+
+### Hypothesis 3 - There is a significant difference in price per sq ft between above average GarageArea homes and below average GarageArea homes. Ha: μ1 - μ2 ≠ 0
+
+![Screen Shot 2024-01-10 at 3 56 25 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/a9a1adeb-529b-43d1-927b-fd6c783b5a7a)
+
+The results of the analysis indicate a statistically significant difference in the average price per square foot between houses with below average GarageArea and houses with above average GarageArea. The confidence interval of (0.35-2.91) suggests that, with 95% confidence, the average price per square foot for houses with above average GarageArea is estimated to be higher by approximately 0.36 to 3 dollars compared to houses with below average GarageArea. Additionally, the p-value of 0.0117 provides strong evidence against the null hypothesis, indicating that the observed difference is unlikely to have occurred by chance alone.
+
+### Hypothesis 4 - There is a significant difference in price per sq ft between above average TotalBsmtSF homes and below average TotalBsmtSF homes. Ha: μ1 - μ2 ≠ 0
+
+![Screen Shot 2024-01-10 at 3 58 31 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/a9d2f057-912e-4c89-ba62-7d65ec67a4c4)
+
+The results indicate a statistically significant difference in the average price per square foot between houses with below average TotalBsmtSF and houses with above average TotalBsmtSF. The confidence interval of (1.32-3.8) suggests that, with 95% confidence, the average price per square foot for houses with above average TotalBsmtSF is estimated to be higher by approximately 1 to 4 dollars compared to houses with below average TotalBsmtSF. Additionally, the small p-value of 7.89e-05 provides strong evidence against the null hypothesis, indicating that the observed difference is unlikely to have occurred by chance alone.
+
+### Hypothesis 5 - There is a significant difference in price per sq ft between above average 1stFlrSF homes and below average 1stFlrSF homes. Ha: μ1 - μ2 ≠ 0
+
+![Screen Shot 2024-01-10 at 4 01 45 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/744fdb54-20b0-43e2-82e3-564f4aed53a3)
+
+The results indicate a statistically significant difference in the average price per square foot between houses with below average 1stFlrSF and houses with above average 1stFlrSF. The confidence interval of (0.52-3.04) suggests that, with 95% confidence, the average price per square foot for houses with above average 1stFlrSF is estimated to be higher by approximately 0.50-3 dollars compared to houses with below average 1stFlrSF. Additionally, the small p-value of 0.00658 provides strong evidence against the null hypothesis, indicating that the observed difference is unlikely to have occurred by chance alone.
+
+### Hypothesis 6 - There is a significant difference in price per sq ft between above average condition homes and below average condition homes. Ha: μ1 - μ2 ≠ 0
+
+![Screen Shot 2024-01-10 at 4 35 17 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/010e2a55-db29-42b2-809e-6c383f62535f)
+
+With 95% confidence, there is a statistically significant difference in the average price per square foot between above average condition homes and below condition homes. The confidence interval (CI) of 3.16 to 5.5 suggests that, on average, the price per square foot for below average condition homes is higher by that amount compared to above average condition homes
 
 
