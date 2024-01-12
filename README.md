@@ -195,7 +195,7 @@ The results indicate a statistically significant difference in the average price
 
 The results indicate a statistically significant difference in the average price per square foot between homes built after the year 2000 and homes built before the year 2000. The confidence interval of (8.15, 11.04) suggests that, with 95% confidence, the average price per square foot for homes built after the year 2000 is estimated to be higher by approximately 8-11 dollars compared to homes built before the year 2000. Additionally, the small p-value of 1.166027845190789e-39 provides strong evidence against the null hypothesis, indicating that the observed difference is unlikely to have occurred by chance alone.
 
-### Hypothesis 10 - There is a significant difference in the mean price per square foot between above-average quality homes in the top 10 neighborhoods bulit after 2000 and above-average quality homes in the top 10 neighborhoods bulit before 2000. Ha: μ1 - μ2 ≠ 0
+### Hypothesis 10 - There is a significant difference in the mean price per square foot between above-average quality homes in the top 10 neighborhoods built after 2000 and above-average quality homes in the top 10 neighborhoods built before 2000. Ha: μ1 - μ2 ≠ 0
 
 ![Screen Shot 2024-01-11 at 10 53 31 AM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/00feb80e-4f61-4840-88d7-3e3811ac8c30)
 
