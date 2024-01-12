@@ -189,7 +189,7 @@ The results indicate a statistically significant difference in the average price
 
 The results indicate a statistically significant difference in the average price per square foot between above average quality homes in the top neighbordhoods and the other homes. The confidence interval of (5.9-8.4) suggests that, with 95% confidence, the average price per square foot for houses with above average overall quality homes in the top neighborhoods is estimated to be higher by approximately 6-8 dollars compared to other homes. Additionally, the small p-value of 1.7714406722025997e-27 provides strong evidence against the null hypothesis, indicating that the observed difference is unlikely to have occurred by chance alone.
 
-### Hypothesis 9 - There is a signigicant difference in the mean price per sq ft between homes built after the year 2000 and homes built before the year 2000. Ha: μ1 - μ2 ≠ 0
+### Hypothesis 9 - There is a significant difference in the mean price per sq ft between homes built after the year 2000 and homes built before the year 2000. Ha: μ1 - μ2 ≠ 0
 
 ![Screen Shot 2024-01-11 at 10 51 30 AM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/631b1c8f-3dba-48d5-b56d-73ae1d1e95af)
 
