@@ -221,7 +221,7 @@ I can conclude that homes buyers in Ames, Iowa prioritize well-built homes with 
 
    1. Focus on high quality properties - conducting thorough due diligence on the underlying properties and ensuring they meet certain quality criteria.
    2. Consider property size
-   3. Access proerty condition
+   3. Access property condition
    4. Consider market trends - Monitor market trends and consider the demand for newer homes
    5. Diversify the portfolio - Investing in a mix of mortgage-backed securities backed by properties with different characteristics, such as varying quality scores, sizes, conditions, and construction years. Diversification can help mitigate the impact of any specific property or market-related risks
 
