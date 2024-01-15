@@ -1,5 +1,5 @@
 <div align="center"><h1>Project 2: Statistical Significance - Pricing Factors - House Prices</h1> </div>
-
+<a href="https://docs.google.com/presentation/d/1T227YqSrjHCL8wNGLhfY2giPp4wuanAc/edit?usp=sharing&ouid=111495903765110507080&rtpof=true&sd=true">Link to presenation</a>
 <!-- TABLE OF CONTENTS -->
    ## Table of Contents
    - [Introduction](#introduction)
