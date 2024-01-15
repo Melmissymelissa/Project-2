@@ -179,13 +179,15 @@ With 95% confidence, there is a statistically significant difference in the aver
 
 ### Hypothesis 7 - There is a significant difference in price per sq ft between above average quality homes and below average quality homes. Ha: μ1 - μ2 ≠ 0
 
-![Screen Shot 2024-01-10 at 4 49 32 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/bbc101d6-0130-4739-962b-2acc82c22cee)
+![Screen Shot 2024-01-15 at 10 03 58 AM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/f5fac008-861c-440e-b3b9-46b357de4059)
+
 
 The results indicate a statistically significant difference in the average price per square foot between houses with above average overall quality score and houses with below average overall quality score. The confidence interval of (7.32-9.86) suggests that, with 95% confidence, the average price per square foot for houses with above average overall quality score is estimated to be higher by approximately 7-10 dollars compared to houses with below average overall quality score. Additionally, the small p-value of 6.447839019158312e-40 provides strong evidence against the null hypothesis, indicating that the observed difference is unlikely to have occurred by chance alone.
 
 ### Hypothesis 8 - There is a significant difference in the mean price per square foot between above-average quality homes in the top 10 neighborhoods and other homes. Ha: μ1 - μ2 ≠ 0
 
-![Screen Shot 2024-01-10 at 4 55 52 PM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/30d2099c-aec6-47df-854a-29c7c7047720)
+![Screen Shot 2024-01-15 at 10 10 43 AM](https://github.com/Melmissymelissa/Project-2-Statistical-Significance---Pricing-Factors---House-Prices/assets/142250108/eba879f4-ba21-4bd3-9d21-f13df6c48ede)
+
 
 The results indicate a statistically significant difference in the average price per square foot between above average quality homes in the top neighbordhoods and the other homes. The confidence interval of (5.9-8.4) suggests that, with 95% confidence, the average price per square foot for houses with above average overall quality homes in the top neighborhoods is estimated to be higher by approximately 6-8 dollars compared to other homes. Additionally, the small p-value of 1.7714406722025997e-27 provides strong evidence against the null hypothesis, indicating that the observed difference is unlikely to have occurred by chance alone.
 
